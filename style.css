@@ -1,0 +1,125 @@
+body
+{background-color: gray;
+font-family: 'Lato', sans-serif;
+background-image:url("Drum-Kit.jpg");
+background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+		background-color:#fff;
+		padding-bottom: 20px;
+}
+body {
+background-color: black;
+}
+#container 
+{width: 1000px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+#logo
+{color: #128870;
+margin-top: 20px;
+font-size: 50px;
+letter-spacing:3px;
+
+
+}
+
+h2
+{color: #128870;
+
+}
+
+#menu
+{background-color: #43c7cd;
+margin-top: 30px;
+color: #ffffff;
+padding: 10px;
+}
+
+#topbar
+{background-color: #128870;
+color: white;
+padding-left:0;
+margin-top: 20px;
+margin-bottom:25px;
+height: 280px;
+text-align: center;
+color: white;
+padding: 110px;
+opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.con{
+background-color: #128870;
+height: 100%;
+opacity: 0.9;
+    filter: alpha(opacity=90);
+font-size: 18px;
+}
+#topbarL
+{
+padding: 20px;
+padding-left:0;
+padding-top: 0;
+width: 140px;
+text-align: center;
+}
+
+#topbarR
+{
+  border: 1px;
+	float: right;
+	clear: right;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	
+}
+#sidebar
+{
+
+}
+
+#content
+{
+border: 1px solid black;
+
+}
+
+
+#footer
+{
+
+
+}
+
+.tomi {
+text-align: center;}
+
+.tomi tr td{
+border: 1px solid black;
+margin-right: 10px;
+background-color: white;
+}
+
+.option
+{float: left;
+min-width: 50px;
+height: 25px;
+font-size: 18px;
+padding: 10px;
+opacity: 0.8;
+}
+
+.option:hover
+
+{background-color: #000000;
+cursor: pointer;
+}
+
+.stopka
+{margin: 0;}
+
+

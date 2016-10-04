@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
+<head>
+  <meta http-equiv="Content-type" content="application/xhtml+xml; charset=utf-8" />
+  <meta name="Description" content=" [wstaw tu opis strony] " />
+  <meta name="Keywords" content=" [wstaw tu slowa kluczowe] " />
+  <meta name="Author" content=" [dane autora] " />
+  <meta name="Generator" content="kED" />
+
+  <title> [tytuł strony] </title>
+
+  <link rel="stylesheet" href=" [nazwa_arkusza_stylow.css] " type="text/css" />
+</head>
+<body>
+<form action="odbior.php">
+<h1>Formularz rejestracyjny Forum Perkusyjnego</h1>
+<h2>Wypełnienie i przesłanie danych z formularza rejestracyjnego, po zaakceptowaniu przez administratora, uprawnia potencjalnego użytkownika z korzystania z forum oraz dodawania komentarzy. </h2>
+<table><tr><td>Nazwisko</td> <td><input name="Nazwisko" /></td></tr> 
+<tr><td> Imię</td> <td><input name="Imię" /></td></tr>
+<label id="usernamemsg" for="username">
+	Twój nick:
+	</label>
+	<input  type="text" id="username" name="nick" size="40" value="" class="inputbox" maxlength="25" /> 
+	<tr><td>Miasto  <input id="Miasto" /> <td><tr> </table>
+<p>Jaki jest Twój staż gry na instrumentach perkusyjnych?</p>
+<p>
+<input type="radio" name="poczatkujący" value="" checked/>początkujący
+<input type="radio" name="amator" value="" />amator
+<input type="radio" name="dośwaidczony" value="" />doświadczony 
+ <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other  
+</p>
+
+
+
+<p>Twoje zainteresowania </p>
+<textarea rows="7" cols="60" name='Twoje zainteresowania'> </textarea>
+<p><input type="submit" value="Zarejestruj sie" /> <input type="reset" value="wyczyść" /> </p>
+ 
+ 
+
+
+
+
+</form>
+
+
+
+</body>
+</html>
